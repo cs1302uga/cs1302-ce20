@@ -112,14 +112,31 @@ command depends on your present working directory), then please note that contex
    the following functionality to your app:
 
    * The first button (i.e., the one with [`/resources/zoom-in-50.png`](/resources/zoom-in-50.png))
-     should _increase_ the size of the main `ImageView` object by some set amount.
+     should _increase_ the size of the main `ImageView` object by some set amount. You will
+     need to consult the API documentation for the [`ImageView`] class to determine the
+     appropriate property to change.
 
    * The second button (i.e., the one with [`/resources/zoom-out-50.png`](/resources/zoom-out-50.png))
-     should _decrease_ the size of the main `ImageView` object by some set amount.
+     should _decrease_ the size of the main `ImageView` object by some set amount. ou will
+     need to consult the API documentation for the [`ImageView`] class to determine the
+     appropriate property to change.
 
    * The third button (i.e., the one with [`/resources/actual-size-50.png`](/resources/actual-size-50.png))
      should return the main `ImageView` object to its default size. This can be accomplished by changing the size 
-     of the `ImageView` object to the same size as the `Image` object it displays.
+     of the `ImageView` object to the same size as the `Image` object it displays. ou will
+     need to consult the API documentation for the [`ImageView`] class to determine the
+     appropriate property to change.
+     
+   Recommendations:
+   
+   * Instead of writing the zoom in / zoom out logic entirely in separate lambda expressions,
+     write a `private` zoom method that takes your fixed amount as a positive or negative 
+     `double` and simply have the lambdas for your event handlers call that method with the
+     appropriate value. For example: 
+     
+     ```java
+     someButton.setOnAction(e -> zoom(+25));
+     ```
    
 1. **Recompile before continuing.**
    Also stage and commit your changes.
