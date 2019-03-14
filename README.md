@@ -96,7 +96,7 @@ command depends on your present working directory), then please note that contex
 
    * The icons for the associated images are contained in the `resources` directory 
      provided with this exercise. To use these local files in your `ImageView`, you
-     can use a `file:` url, e.g., `file:resources/image.png` -- this will only work
+     can use a relative `file:` URL, e.g., `file:resources/image.png` -- this will only work
      if resources is in the present working directory when the app is run.
      
    * The stage should NOT be resizable by the user via dragging the window corner.
