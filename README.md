@@ -116,6 +116,7 @@ command depends on your present working directory), then please note that contex
    and
    [`Button`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Button.html)
    classes to determine the appropriate property to change.
+   **Please read all of the bullet points below as well as the reccomendations before writing any code.**
 
    * __Zoom In:__
      The first button (i.e., the one with [`zoom-in-50.png`](resources/zoom-in-50.png))
@@ -131,7 +132,7 @@ command depends on your present working directory), then please note that contex
      should _decrease_ the size of the main `ImageView` object by some fixed amount. 
      
      * If clicking this button causes the size to decrease to an amount such that a 
-       subsequent click would cause the `ImageView` size to become negatice, then 
+       subsequent click would cause the `ImageView` size to become negative, then 
        disable the button. If the first button (i.e., for
        zooming in) is disabled, then enable it.
 
