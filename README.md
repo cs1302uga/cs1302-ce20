@@ -51,61 +51,46 @@ command depends on your present working directory), then please note that contex
    into the `src/cs1302/ce20` directory of `cs1302-ce20` and update the package
    statements accordingly (i.e., make sure the package is `cs1302.ce20`).
    
-1. If you did not finish cs1302-ce19, then finish the work required for 
+1. If you did not finish **cs1302-ce19**, then finish the work required for 
    [cs1302-ce19](https://github.com/cs1302uga/cs1302-ce19)
-   in the code you just copied over.
-   
-1. 
+   in the code you just copied over. The textfield is expected to grow with
+   its parent `HBox`. 
    
 1. **Compile and run your code without any errors or warnings.**
-   Specify `bin` as the default package for your compiled code.
+   Also stage and commit your changes.
    
-   * If you have trouble running the code, then consult the 
-     [CSCI 1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx.md).
-     
-1. The contents of the scene represent part of the state of your application.
-   As such, the variables that we use to refer to those objects should be
-   instance variables of your class. Consult the 
-   [API Documentation](https://docs.oracle.com/javase/8/javafx/api/toc.htm) and 
-   [referenced bookmarks](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
-   to determine some of the import statements that are needed, then add them to
-   the file for your `ImageApp` class. **Recompile before continuing.** 
-   
-1. Stage and commit your changes.
+1. Consider the following screenshot and associated containment heirarchy:
 
-1. Now, for each object in the scene graph, declare an **instance variable** 
-   of the appropriate type with a good name. Do not create the objects here!
-   
-1. In the `start` method, construct the objects for the scene graph in
-   a top-down fashion, assigning their references to the instance variables
-   that you just declared. 
-   
-   1. Consult the 
-      [API Documentation](https://docs.oracle.com/javase/8/javafx/api/toc.htm) and 
-      for each class to see what constructors are available.
-      
-   1. Try to make the text content of visible nodes match the screenshot.
-      
-   1. For the `ImageView` object, we would like for you to create a separate
-      [`Image`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/Image.html)
-      object and use the 
-      [`ImageView(Image)`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/ImageView.html#ImageView-javafx.scene.image.Image-) constructor. The URL string that you should provide to
-      the `Image` constructor is:
-   
-      ```
-      http://cobweb.cs.uga.edu/~mec/cs1302/gui/default.png
-      ```
-      
-      **NOTE:** Do not use the `ImageView` constructor that directly takes a URL string.
-      If you do, then it will make it potentially more difficult to change the image
-      in a later step.
-  
-   1. Add any child nodes to the to their parent's 
-      collection of children using `getChildren().add`. 
-      
-   1. **Recompile and run.**
+   ![screenshot]() REPLACE ME
 
-1. Stage and commit your changes.
+   ```
+                                                            --|
+                          Stage                               |
+                            |                                 |
+                          Scene                               |
+          |--               |                                 |
+          |                VBox                               | Overall
+          |                 |                                 |
+          |               /---\---------\                     | Containment
+   Scene  |              /     \         \                    | Hierarchy
+   Graph  |            HBox  ImageView  HBox                  |
+          |            / \               |                    |
+          |           /   \            /---\-----\            |
+          |    TextField  Button      /     \     \           |
+          |                      Button Button Button         |
+          |--                    /g     /g         g\         |
+                            ImageView ImageView ImageView     |
+                                                            --|                                              
+   ```
+   
+   The `ImageView` objects associated with the `Buttons` with a `g` are associated via
+   each `Button` objects `graphic` property. The icons for the images are contained
+   in the `resources` directory provided with this exercise. 
+   
+1. Update your code so that it has the same scene graph and visual
+   appearance provided in the previous step. 
+   **Recompile before continuing.**
+   Also stage and commit your changes.
 
 1. If you completed the steps correctly, your app should look similar to
    the screenshot provided above. Congratulations on a good looking app!
