@@ -95,7 +95,8 @@ command depends on your present working directory), then please note that contex
    * The stage should NOT be resizable by the user via dragging the window corner.
    
 1. Update your code so that it has the same scene graph and visual
-   appearance provided in the previous step. The three new buttons below the main `ImageView` object
+   appearance provided in the previous step. The three new buttons below the main `ImageView` 
+   object are not supposed to function for this checkpoint. 
    **Recompile before continuing.**
    Also stage and commit your changes.
 
