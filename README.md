@@ -63,9 +63,9 @@ command depends on your present working directory), then please note that contex
 
    <table>
    <tr>
-      <td>![screenshot](ScreenShotCP1.png)</td>
+      <td><img src="ScreenShotCP1.png" alt="screenshot"></td>
       <td>
-   ```
+   <code><pre>
                                                             --|
                           Stage                               |
                             |                                 |
@@ -83,7 +83,7 @@ command depends on your present working directory), then please note that contex
           |--                    /      /           \         |
                             ImageView ImageView ImageView     |
                                                             --|                                              
-   ```
+   </pre></code>
       </td>
    </tr>
    </table>
