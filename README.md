@@ -63,7 +63,7 @@ command depends on your present working directory), then please note that contex
 
    <table>
    <tr>
-      <td> <img src="https://raw.githubusercontent.com/cs1302uga/cs1302-ce20/master/ScreenShotCP1.png"> </td>
+      <td><img src="http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce20-screenshot.png"></td>
       <td><pre><code>            Stage
                  |
                Scene
