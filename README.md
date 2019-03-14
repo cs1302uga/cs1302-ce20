@@ -63,7 +63,7 @@ command depends on your present working directory), then please note that contex
 
    <table>
    <tr>
-      <td> ![screenshot](ScreenShotCP1.png) </td>
+      <td> <img src="/cs1302uga/cs1302-ce19/blob/master/ScreenShot.png"> </td>
       <td>
    <code><pre>
                                                             --|
@@ -71,8 +71,8 @@ command depends on your present working directory), then please note that contex
                             |                                 |
                           Scene                               |
           |--               |                                 |
-          |                VBox                               | Overall
-          |                 |                                 |
+          |                VBox                               |
+          |                 |                                 | Overall
           |               /---\---------\                     | Containment
    Scene  |              /     \         \                    | Hierarchy
    Graph  |            HBox  ImageView  HBox                  |
