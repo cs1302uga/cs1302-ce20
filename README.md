@@ -61,7 +61,7 @@ command depends on your present working directory), then please note that contex
    
 1. Consider the following screenshot and associated containment heirarchy:
 
-   ![screenshot]() REPLACE ME
+   ![screenshot](ScreenShotCP1.png)
 
    ```
                                                             --|
