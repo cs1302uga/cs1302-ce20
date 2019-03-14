@@ -80,8 +80,7 @@ command depends on your present working directory), then please note that contex
           |                      Button Button Button         |
           |--                    /      /           \         |
                             ImageView ImageView ImageView     |
-                                                            --|</pre></code>
-      </td>
+                                                            --|</pre></code></td>
    </tr>
    </table>
    
