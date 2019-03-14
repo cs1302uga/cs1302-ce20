@@ -111,12 +111,16 @@ command depends on your present working directory), then please note that contex
 1. Now that you have your app looking good, let's make it do stuff. Add
    the following functionality to your app:
 
-   <table>
-   <tr>
-   <td><img src="https://raw.githubusercontent.com/cs1302uga/cs1302-ce20/master/resources/zoom-in-50.png"></td>
-   <td>DO something</td>
-   </table>
+   * The button with [`/resources/zoom-in-50.png`](/resources/zoom-in-50.png)
+     should _increase_ the size of the main `ImageView` object by some set amount.
 
+   * The button with [`/resources/zoom-out-50.png`](/resources/zoom-out-50.png)
+     should _decrease_ the size of the main `ImageView` object by some set amount.
+
+   * The button with [`/resources/actual-size-50.png`](/resources/actual-size-50.png)
+     should change the size of the main `ImageView` object to be the same size as the
+     `Image` object it displays.
+   
 1. **Recompile before continuing.**
    Also stage and commit your changes.
      
