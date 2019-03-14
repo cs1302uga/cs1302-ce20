@@ -63,7 +63,7 @@ command depends on your present working directory), then please note that contex
 
    <table>
    <tr>
-      <td><img src="ScreenShotCP1.png" alt="screenshot"></td>
+      <td> ![screenshot](ScreenShotCP1.png) </td>
       <td>
    <code><pre>
                                                             --|
