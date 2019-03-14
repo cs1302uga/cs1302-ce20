@@ -68,7 +68,7 @@ command depends on your present working directory), then please note that contex
                  Stage                       Overall | 
                    |                     Containment | 
                  Scene                     Hierarchy | 
- |--               |                                 | 
+ |                 |                                 | 
  | Scene          VBox                               | 
  | Graph           |                                 | 
  |               /---\---------\                     | 
@@ -78,7 +78,7 @@ command depends on your present working directory), then please note that contex
  |           /   \            /---\-----\            | 
  |    TextField  Button      /     \     \           | 
  |                      Button Button Button         | 
- |--                    /      /           \         | 
+ |                      /      /           \         | 
                    ImageView ImageView ImageView     | 
                                                              --|</code></pre></td>
    </tr>
