@@ -149,6 +149,12 @@ command depends on your present working directory), then please note that contex
      ```java
      someButton.setOnAction(e -> zoom(+25));
      ```
+     
+   * Carefully read the entire API documentation, including default values, for the following 
+     `ImageView` properties:
+     [`fitHeight`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/ImageView.html#fitHeightProperty)
+     and
+     [`preserveRatio`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/ImageView.html#preserveRatioProperty).
    
 1. **Recompile before continuing.**
    Also stage and commit your changes.
