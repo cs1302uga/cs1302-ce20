@@ -84,11 +84,21 @@ command depends on your present working directory), then please note that contex
    </tr>
    </table>
    
-   The three `ImageView` objects associated with the `Button` objects are not considered
-   part of the scene graph but are part of the overall containment hiearchy. These 
-   `ImageView` objects are associated with each `Button` object via the `Button` object's
-   `graphic` property. The icons for the associated images are contained in
-   the `resources` directory provided with this exercise. 
+   Each node corresponds to an object of some class under the 
+   [`javafx`](https://docs.oracle.com/javase/8/javafx/api/toc.htm)
+   package. The diagram for the scene graph assumes that child nodes
+   are added to their parents in a left-to-right order.
+   Here are some additional notes:
+   
+   * The three `ImageView` objects associated with the `Button` objects are not considered
+     part of the scene graph but are part of the overall containment hiearchy. These 
+     `ImageView` objects are associated with each `Button` object via the `Button` object's
+     `graphic` property. 
+   
+   * The icons for the associated images are contained in the `resources` directory 
+     provided with this exercise. 
+     
+   * The stage should NOT be resizable by the user via dragging the window corner.
    
 1. Update your code so that it has the same scene graph and visual
    appearance provided in the previous step. 
