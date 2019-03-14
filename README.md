@@ -155,7 +155,7 @@ command depends on your present working directory), then please note that contex
      [`fitHeight`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/ImageView.html#fitHeightProperty)
      and
      [`preserveRatio`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/ImageView.html#preserveRatioProperty).
-     Carefully considering how these properties impact and `ImageView` can lead to more concise
+     Carefully considering how these properties impact an `ImageView` can lead to more concise
      and readable code.
    
 1. **Recompile before continuing.**
