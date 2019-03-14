@@ -63,7 +63,7 @@ command depends on your present working directory), then please note that contex
 
    <table>
    <tr>
-      <td> <img src="/cs1302uga/cs1302-ce19/blob/master/ScreenShot.png"> </td>
+      <td> <img src="https://raw.githubusercontent.com/cs1302uga/cs1302-ce19/master/ScreenShot.png"> </td>
       <td>
    <code><pre>
                                                             --|
