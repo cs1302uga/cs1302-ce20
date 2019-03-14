@@ -117,7 +117,8 @@ command depends on your present working directory), then please note that contex
    [`Button`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Button.html)
    classes to determine the appropriate property to change.
 
-   * The first button (i.e., the one with [`zoom-in-50.png`](resources/zoom-in-50.png))
+   * __Zoom In:__
+     The first button (i.e., the one with [`zoom-in-50.png`](resources/zoom-in-50.png))
      should _increase_ the size of the main `ImageView` object by some fixed amount.
      
      * If clicking this button causes the size to increase to an amount such that a 
@@ -125,7 +126,8 @@ command depends on your present working directory), then please note that contex
        underlying `Image`, then disable the button. If the second button (i.e., for
        zooming out) is disabled, then enable it.
 
-   * The second button (i.e., the one with [`zoom-out-50.png`](resources/zoom-out-50.png))
+   *  __Zoom Out:__
+     The second button (i.e., the one with [`zoom-out-50.png`](resources/zoom-out-50.png))
      should _decrease_ the size of the main `ImageView` object by some fixed amount. 
      
      * If clicking this button causes the size to decrease to an amount such that a 
@@ -133,7 +135,8 @@ command depends on your present working directory), then please note that contex
        disable the button. If the first button (i.e., for
        zooming in) is disabled, then enable it.
 
-   * The third button (i.e., the one with [`actual-size-50.png`](resources/actual-size-50.png))
+   *  __Actual Size:__
+     The third button (i.e., the one with [`actual-size-50.png`](resources/actual-size-50.png))
      should return the main `ImageView` object to its default size. This can be accomplished by changing the size 
      of the `ImageView` object to the same size as the `Image` object it displays. 
      
