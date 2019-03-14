@@ -111,15 +111,15 @@ command depends on your present working directory), then please note that contex
 1. Now that you have your app looking good, let's make it do stuff. Add
    the following functionality to your app:
 
-   * The button with [`/resources/zoom-in-50.png`](/resources/zoom-in-50.png)
+   * The first button (i.e., the one with [`/resources/zoom-in-50.png`](/resources/zoom-in-50.png))
      should _increase_ the size of the main `ImageView` object by some set amount.
 
-   * The button with [`/resources/zoom-out-50.png`](/resources/zoom-out-50.png)
+   * The second button (i.e., the one with [`/resources/zoom-out-50.png`](/resources/zoom-out-50.png))
      should _decrease_ the size of the main `ImageView` object by some set amount.
 
-   * The button with [`/resources/actual-size-50.png`](/resources/actual-size-50.png)
-     should change the size of the main `ImageView` object to be the same size as the
-     `Image` object it displays.
+   * The third button (i.e., the one with [`/resources/actual-size-50.png`](/resources/actual-size-50.png))
+     should return the main `ImageView` object to its default size. This can be accomplished by changing the size 
+     ImageView` object to the same size as the `Image` object it displays.
    
 1. **Recompile before continuing.**
    Also stage and commit your changes.
