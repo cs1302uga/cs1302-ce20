@@ -53,8 +53,7 @@ command depends on your present working directory), then please note that contex
    
 1. If you did not finish **cs1302-ce19**, then finish the work required for 
    [cs1302-ce19](https://github.com/cs1302uga/cs1302-ce19)
-   in the code you just copied over. The textfield is expected to grow with
-   its parent `HBox`. 
+   in the code you just copied over. 
    
 1. **Compile and run your code without any errors or warnings.**
    Also stage and commit your changes.
@@ -88,6 +87,8 @@ command depends on your present working directory), then please note that contex
    are added to their parents in a left-to-right order.
    Here are some additional notes:
    
+   * The textfield is expected to grow with its parent `HBox`.
+   
    * The three `ImageView` objects associated with the `Button` objects are not considered
      part of the scene graph but are part of the overall containment hiearchy. These 
      `ImageView` objects are associated with each `Button` object via the `Button` object's
@@ -99,7 +100,7 @@ command depends on your present working directory), then please note that contex
    * The stage should NOT be resizable by the user via dragging the window corner.
    
 1. Update your code so that it has the same scene graph and visual
-   appearance provided in the previous step. 
+   appearance provided in the previous step. The three new buttons below the main `ImageView` object
    **Recompile before continuing.**
    Also stage and commit your changes.
 
@@ -109,23 +110,20 @@ command depends on your present working directory), then please note that contex
 **CHECKPOINT**
 
 1. Now that you have your app looking good, let's make it do stuff. Add
-   the following functionality to your app:
+   the functionality listed below to your app. You will
+   need to consult the API documentation for the 
+   [`ImageView`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/ImageView.html)
+   class to determine the appropriate property to change.
 
-   * The first button (i.e., the one with [`/resources/zoom-in-50.png`](/resources/zoom-in-50.png))
-     should _increase_ the size of the main `ImageView` object by some set amount. You will
-     need to consult the API documentation for the [`ImageView`] class to determine the
-     appropriate property to change.
+   * The first button (i.e., the one with [`zoom-in-50.png`](resources/zoom-in-50.png))
+     should _increase_ the size of the main `ImageView` object by some set amount. 
 
-   * The second button (i.e., the one with [`/resources/zoom-out-50.png`](/resources/zoom-out-50.png))
-     should _decrease_ the size of the main `ImageView` object by some set amount. ou will
-     need to consult the API documentation for the [`ImageView`] class to determine the
-     appropriate property to change.
+   * The second button (i.e., the one with [`zoom-out-50.png`](resources/zoom-out-50.png))
+     should _decrease_ the size of the main `ImageView` object by some set amount. 
 
-   * The third button (i.e., the one with [`/resources/actual-size-50.png`](/resources/actual-size-50.png))
+   * The third button (i.e., the one with [`actual-size-50.png`](resources/actual-size-50.png))
      should return the main `ImageView` object to its default size. This can be accomplished by changing the size 
-     of the `ImageView` object to the same size as the `Image` object it displays. ou will
-     need to consult the API documentation for the [`ImageView`] class to determine the
-     appropriate property to change.
+     of the `ImageView` object to the same size as the `Image` object it displays. 
      
    Recommendations:
    
