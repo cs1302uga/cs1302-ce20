@@ -135,7 +135,7 @@ command depends on your present working directory), then please note that contex
        disable the button. If the first button (i.e., for
        zooming in) is disabled, then enable it.
 
-   *  __Actual Size:__
+   * __Actual Size:__
      The third button (i.e., the one with [`actual-size-50.png`](resources/actual-size-50.png))
      should return the main `ImageView` object to its default size. This can be accomplished by changing the size 
      of the `ImageView` object to the same size as the `Image` object it displays. 
