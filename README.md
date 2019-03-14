@@ -78,14 +78,16 @@ command depends on your present working directory), then please note that contex
           |           /   \            /---\-----\            |
           |    TextField  Button      /     \     \           |
           |                      Button Button Button         |
-          |--                    /g     /g         g\         |
+          |--                    /      /           \         |
                             ImageView ImageView ImageView     |
                                                             --|                                              
    ```
    
-   The `ImageView` objects associated with the `Buttons` with a `g` are associated via
-   each `Button` objects `graphic` property. The icons for the images are contained
-   in the `resources` directory provided with this exercise. 
+   The three `ImageView` objects associated with the `Button` objects are not considered
+   part of the scene graph but are part of the overall containment hiearchy. These 
+   `ImageView` objects are associated with each `Button` object via the `Button` object's
+   `graphic` property. The icons for the associated images are contained in
+   the `resources` directory provided with this exercise. 
    
 1. Update your code so that it has the same scene graph and visual
    appearance provided in the previous step. 
