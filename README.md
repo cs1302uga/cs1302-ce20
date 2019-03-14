@@ -61,8 +61,10 @@ command depends on your present working directory), then please note that contex
    
 1. Consider the following screenshot and associated containment heirarchy:
 
-   ![screenshot](ScreenShotCP1.png)
-
+   <table>
+   <tr>
+      <td>![screenshot](ScreenShotCP1.png)</td>
+      <td>
    ```
                                                             --|
                           Stage                               |
@@ -82,6 +84,9 @@ command depends on your present working directory), then please note that contex
                             ImageView ImageView ImageView     |
                                                             --|                                              
    ```
+      </td>
+   </tr>
+   </table>
    
    The three `ImageView` objects associated with the `Button` objects are not considered
    part of the scene graph but are part of the overall containment hiearchy. These 
