@@ -64,22 +64,22 @@ command depends on your present working directory), then please note that contex
    <table>
    <tr>
       <td> <img src="https://raw.githubusercontent.com/cs1302uga/cs1302-ce20/master/ScreenShotCP1.png?token=AAC_gNf5rZNVsCeD6PS7q7DA4YBrzcEiks5ck7mBwA%3D%3D"> </td>
-      <td><pre>                                                         --|
-                          Stage                               |
-                            |                                 |
-                          Scene                               |
-          |--               |                                 |
-          |                VBox                               |
-          |                 |                                 | Overall
-          |               /---\---------\                     | Containment
-   Scene  |              /     \         \                    | Hierarchy
-   Graph  |            HBox  ImageView  HBox                  |
-          |            / \               |                    |
-          |           /   \            /---\-----\            |
-          |    TextField  Button      /     \     \           |
-          |                      Button Button Button         |
-          |--                    /      /           \         |
-                            ImageView ImageView ImageView     |
+      <td><pre>                                             --|
+                Stage                       Overall |
+                  |                     Containment |
+                Scene                     Hierarchy |
+|--               |                                 |
+| Scene          VBox                               |
+| Graph           |                                 |
+|               /---\---------\                     |
+|              /     \         \                    |
+|            HBox  ImageView  HBox                  |
+|            / \               |                    |
+|           /   \            /---\-----\            |
+|    TextField  Button      /     \     \           |
+|                      Button Button Button         |
+|--                    /      /           \         |
+                  ImageView ImageView ImageView     |
                                                             --|</code></td>
    </tr>
    </table>
