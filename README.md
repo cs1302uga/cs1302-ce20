@@ -119,7 +119,7 @@ command depends on your present working directory), then please note that contex
 
    * The third button (i.e., the one with [`/resources/actual-size-50.png`](/resources/actual-size-50.png))
      should return the main `ImageView` object to its default size. This can be accomplished by changing the size 
-     ImageView` object to the same size as the `Image` object it displays.
+     of the `ImageView` object to the same size as the `Image` object it displays.
    
 1. **Recompile before continuing.**
    Also stage and commit your changes.
