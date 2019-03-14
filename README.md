@@ -7,13 +7,13 @@
 
 # cs1302-ce20 Fancy ImageApp
 
-> The only way to get rid of temptation is to yield to it.
+> The artist is the creator of beautiful things.
 > **-- Oscar Wilde, _The Picture of Dorian Gray_**
 
-This class exercise explores creating graphical user interfaces (GUIs) using the JavaFX library. Students
-will create an interactive GUI that loads an image from a specified URL. The program supports images in BMP, 
-GIF, JPEG, and PNG formats. In this exercise, starter code containing the basic layout of a JavaFX application
-is provided. Implementation details are left to the student.
+This class continues the development a GUI app using the JavaFX library. Students
+will create an interactive GUI that loads an image from a specified URL and allows
+the user to perform different zooming operations. The program supports images in BMP, 
+GIF, JPEG, and PNG formats.
 
 ## References and Prerequisites
 
