@@ -126,7 +126,7 @@ command depends on your present working directory), then please note that contex
        underlying `Image`, then disable the button. If the second button (i.e., for
        zooming out) is disabled, then enable it.
 
-   *  __Zoom Out:__
+   * __Zoom Out:__
      The second button (i.e., the one with [`zoom-out-50.png`](resources/zoom-out-50.png))
      should _decrease_ the size of the main `ImageView` object by some fixed amount. 
      
