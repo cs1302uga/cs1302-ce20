@@ -94,6 +94,9 @@ command depends on your present working directory), then please note that contex
      can use a relative `file:` URL, e.g., `file:resources/image.png` -- this will only work
      if resources is in the present working directory when the app is run.
      
+   * The `Button` objects are NOT required to grow with their enclosing containers. The
+     screenshot may suggest otherwise. 
+     
    * The stage should NOT be resizable by the user via dragging the window corner.
    
 1. Update your code so that it has the same scene graph and visual
