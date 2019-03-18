@@ -43,7 +43,8 @@ command depends on your present working directory), then please note that contex
 
 1. Copy over your work from the `src/cs1302/ce19` directory of `cs1302-ce19`
    into the `src/cs1302/ce20` directory of `cs1302-ce20` and update the package
-   statements accordingly (i.e., make sure the package is `cs1302.ce20`).
+   statements accordingly (i.e., make sure the package is `cs1302.ce20`). 
+   **You should create `src/cs1302/ce20` if it does not exist.**
    
 1. If you did not finish **cs1302-ce19**, then finish the work required for 
    [cs1302-ce19](https://github.com/cs1302uga/cs1302-ce19)
