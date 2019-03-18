@@ -3,10 +3,11 @@
 > The artist is the creator of beautiful things.
 > **-- Oscar Wilde, _The Picture of Dorian Gray_**
 
-This class continues the development a GUI app using the JavaFX library. Students
-will create an interactive GUI that loads an image from a specified URL and allows
-the user to perform different zooming operations. The program supports images in BMP, 
-GIF, JPEG, and PNG formats.
+This class exercise continues the development a GUI app using the JavaFX library. Students
+will continue to create an interactive GUI that loads an image from a specified URL and allows
+the user to perform different zooming operations. Construction of this app requires students
+to utilize their knowledge of inheritance, polymorphism, interfaces, and API documentation
+lookup.
 
 ## References and Prerequisites
 
