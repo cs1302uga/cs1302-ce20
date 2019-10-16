@@ -9,6 +9,11 @@ the user to perform different zooming operations. Construction of this app requi
 to utilize their knowledge of inheritance, polymorphism, interfaces, and API documentation
 lookup.
 
+## Course-Specific Learning Outcomes
+
+* **LO2.e:** (Partial) Utilize existing generic methods, interfaces, and classes in a software solution.
+* **LO7.a:** (Partial) Design and implement a graphical user interface in a software project.
+
 ## References and Prerequisites
 
 * [CSCI 1302 JavaFX 8 Bookmarks and Notes](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
@@ -31,14 +36,6 @@ command depends on your present working directory), then please note that contex
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce20.git
    ```
 
-1. Change into the `cs1302-ce20` directory that was just created and look around. There should be
-   multiple Java files contained within the directory structure. To see a listing of all of the 
-   files under the `src` subdirectory, use the `find` command as follows:
-   
-   ```
-   $ find src
-   ```
-
 ### Exercise Steps
 
 1. Copy over your work from the `src/cs1302/ce19` directory of `cs1302-ce19`
@@ -51,7 +48,8 @@ command depends on your present working directory), then please note that contex
    in the code you just copied over. 
    
 1. **Compile and run your code without any errors or warnings.**
-   Also stage and commit your changes.
+
+1. Make sure your code passes the checkstyle audit then stage and commit your changes.
    
 1. Consider the following screenshot and associated containment heirarchy:
 
