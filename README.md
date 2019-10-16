@@ -100,8 +100,8 @@ command depends on your present working directory), then please note that contex
    **Recompile before continuing.**
    Also stage and commit your changes.
 
-1. If you completed the steps correctly, your app should look similar to
-   the screenshot provided above. Congratulations on a good looking app!
+If you completed the steps correctly, your app should look similar to
+the screenshot provided above. Congratulations on a good looking app!
    
 **CHECKPOINT**
 
