@@ -162,9 +162,9 @@ the screenshot provided above. Congratulations on a good looking app!
 1. **Recompile before continuing.**
    Also stage and commit your changes.
      
-1. If you completed the steps correctly, your app should not only look 
-   similar to the screenshot provided above, but it has the desired
-   functionality. Congratulations on a good looking, functional app!
+If you completed the steps correctly, your app should not only look 
+similar to the screenshot provided above, but it has the desired
+functionality. Congratulations on a good looking, functional app!
         
 **CHECKPOINT**
 
