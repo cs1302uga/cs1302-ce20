@@ -100,7 +100,7 @@ command depends on your present working directory), then please note that contex
    appearance provided in the previous step. The three new buttons below the main `ImageView` 
    object are not supposed to function for this checkpoint. 
    **Recompile before continuing.**
-   Also stage and commit your changes.
+   Also, make sure your code passes the `checkstyle` audit, then stage and commit all changes.
 
 If you completed the steps correctly, your app should look similar to
 the screenshot provided above. Congratulations on a good looking app!
@@ -162,7 +162,7 @@ the screenshot provided above. Congratulations on a good looking app!
      and readable code.
    
 1. **Recompile before continuing.**
-   Also stage and commit your changes.
+   Also, make sure your code passes the `checkstyle` audit, then stage and commit all changes.
      
 If you completed the steps correctly, your app should not only look 
 similar to the screenshot provided above, but it has the desired
