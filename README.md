@@ -51,7 +51,7 @@ command depends on your present working directory), then please note that contex
    
 1. **Compile and run your code without any errors or warnings.**
 
-1. Make sure your code passes the checkstyle audit then stage and commit your changes.
+1. Make sure your code passes the `checkstyle` audit then stage and commit your changes.
    
 1. Consider the following screenshot and associated containment heirarchy:
 
