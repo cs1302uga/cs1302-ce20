@@ -1,6 +1,10 @@
 # cs1302-ce20 Fancy ImageApp
 
 ![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+<!--
+![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
+![Instruction: Online](https://img.shields.io/badge/Instruction-Online-important)
+-->
 
 > The artist is the creator of beautiful things.
 > **-- Oscar Wilde, _The Picture of Dorian Gray_**
@@ -105,7 +109,7 @@ command depends on your present working directory), then please note that contex
 If you completed the steps correctly, your app should look similar to
 the screenshot provided above. Congratulations on a good looking app!
    
-**CHECKPOINT**
+![CP](https://img.shields.io/badge/Checkpoint-1-success?style=for-the-badge)
 
 1. Now that you have your app looking good, let's make it do stuff. Add
    the functionality listed below to your app. You will
@@ -168,7 +172,33 @@ If you completed the steps correctly, your app should not only look
 similar to the screenshot provided above, but it has the desired
 functionality. Congratulations on a good looking, functional app!
         
-**CHECKPOINT**
+![CP](https://img.shields.io/badge/Checkpoint-2-success?style=for-the-badge)
+
+1. Create a plain text file called `SUBMISSION.md` directly inside `cs1302-ce20`
+   with the following information:
+
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   1. The weekly code (listed with the exercise on eLC).
+   
+   Here is an example:
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe Allen, Stacie Mack
+   3. Weekly Code: replace-with-actual-code
+   ```
+
+1. Add and commit `SUBMISSION.md`. Also, do a final check to ensure your code 
+   passes the `checkstyle` audit, then stage and commit all changes, if needed.
+
+1. Change into the parent directory and use the `submit` command to submit this exercise to `cs1302a`:
+   
+   ```
+   $ submit cs1302-ce20 cs1302a
+   ```
+   
+![CP](https://img.shields.io/badge/Checkpoint-Submission-success?style=for-the-badge)
 
 <hr/>
 
