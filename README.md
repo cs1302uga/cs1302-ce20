@@ -88,6 +88,11 @@ command depends on your present working directory), then please note that contex
    
    * The textfield is expected to grow with its parent `HBox`.
    
+   * The three buttons at the bottom should grow to fill their enclosing `HBox`. Buttons require an
+     extra step that was not needed with textfields. To get this to work, make sure you read and 
+     understand all of the starter code in the 
+     [`Hbox` Documentation](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/layout/HBox.html)
+   
    * The three `ImageView` objects associated with the `Button` objects are not considered
      part of the scene graph but are part of the overall containment hiearchy. These 
      `ImageView` objects are associated with each `Button` object via the `Button` object's
