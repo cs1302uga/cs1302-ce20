@@ -123,7 +123,7 @@ the screenshot provided above. Congratulations on a good looking app!
    and
    [`Button`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Button.html)
    classes to determine the appropriate property to change.
-   **Please read all of the bullet points below as well as the recomendations before writing any code.**
+   **Please read all of the bullet points below as well as the recommendations before writing any code.**
 
    * __Zoom In:__
      The first button (i.e., the one with [`zoom-in-50.png`](resources/zoom-in-50.png))
