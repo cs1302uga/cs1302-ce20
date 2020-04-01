@@ -1,10 +1,7 @@
 # cs1302-ce20 Fancy ImageApp
 
-![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
-<!--
 ![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
 ![Instruction: Online](https://img.shields.io/badge/Instruction-Online-important)
--->
 
 > The artist is the creator of beautiful things.
 > **-- Oscar Wilde, _The Picture of Dorian Gray_**
