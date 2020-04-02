@@ -176,6 +176,8 @@ functionality. Congratulations on a good looking, functional app!
         
 ![CP](https://img.shields.io/badge/Checkpoint-2-success?style=for-the-badge)
 
+**Each student needs to individually submit their own work.**
+
 1. Create a plain text file called `SUBMISSION.md` directly inside this exercise
    directory with the following information:
 
