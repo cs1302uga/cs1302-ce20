@@ -90,10 +90,8 @@ command depends on your present working directory), then please note that contex
      understand all of the starter code in the 
      [`Hbox` Documentation](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/layout/HBox.html)
    
-   * The three `ImageView` objects associated with the `Button` objects are not considered
-     part of the scene graph but are part of the overall containment hiearchy. These 
-     `ImageView` objects are associated with each `Button` object via the `Button` object's
-     `graphic` property. 
+   * The three `ImageView` objects associated with the `Button` objects 
+      via each `Button` object's `graphic` property. 
 
    * The icons for the associated images are contained in the `resources` directory 
      provided with this exercise. To use these local files in your `ImageView`, you
