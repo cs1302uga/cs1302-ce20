@@ -22,10 +22,20 @@ lookup.
 * [CSCI 1302 JavaFX 8 Bookmarks and Notes](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
 * [CSCI 1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx.md)
 
+## Introductory Video
+
+The following video contains a brief introduction to the exercise and a demo: 
+
+https://www.youtube.com/watch?v=eMArlI_tjig
+
+<a href="https://www.youtube.com/watch?v=eMArlI_tjig">
+<img src="http://i3.ytimg.com/vi/eMArlI_tjig/hqdefault.jpg" alt="IMAGE ALT TEXT">
+</a>
+
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Nike server. 
+logged into the Odin server. 
 
 **NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
 command that you typed to make the related action happen. If context is necessary (e.g., the 
@@ -33,13 +43,15 @@ command depends on your present working directory), then please note that contex
 
 ### Getting Started
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce20`:
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce20`:
 
    ```
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce20.git
    ```
 
-### Exercise Steps
+## Exercise Steps
+
+### Checkpoint 1 Steps
 
 1. Copy over your work from the `src/cs1302/ce19` directory of `cs1302-ce19`
    into the `src/cs1302/ce20` directory of `cs1302-ce20` and update the package
@@ -78,7 +90,7 @@ command depends on your present working directory), then please note that contex
    </table>
    
    Each node corresponds to an object of some class under the 
-   [`javafx`](https://docs.oracle.com/javase/8/javafx/api/toc.htm)
+   [`javafx`](https://openjfx.io/javadoc/11/)
    package. The diagram for the scene graph assumes that child nodes
    are added to their parents in a left-to-right order.
    Here are some additional notes:
@@ -88,7 +100,7 @@ command depends on your present working directory), then please note that contex
    * The three buttons at the bottom should grow to fill their enclosing `HBox`. Buttons require an
      extra step that was not needed with textfields. To get this to work, make sure you read and 
      understand all of the starter code in the 
-     [`Hbox` Documentation](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/layout/HBox.html)
+     [`Hbox` Documentation](https://openjfx.io/javadoc/11/javafx.graphics/javafx/scene/layout/HBox.html)
    
    * The three `ImageView` objects associated with the `Button` objects 
       via each `Button` object's `graphic` property. 
@@ -109,14 +121,20 @@ command depends on your present working directory), then please note that contex
 If you completed the steps correctly, your app should look similar to
 the screenshot provided above. Congratulations on a good looking app!
    
-![CP](https://img.shields.io/badge/Checkpoint-1-success?style=for-the-badge)
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps
 
 1. Now that you have your app looking good, let's make it do stuff. Add
    the functionality listed below to your app. You will
    need to consult the API documentation for the 
-   [`ImageView`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/ImageView.html)
+   [`ImageView`](https://openjfx.io/javadoc/11/javafx.graphics/javafx/scene/image/ImageView.html)
    and
-   [`Button`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Button.html)
+   [`Button`](https://openjfx.io/javadoc/11/javafx.controls/javafx/scene/control/Button.html)
    classes to determine the appropriate property to change.
    **Please read all of the bullet points below as well as the recommendations before writing any code.**
 
@@ -159,9 +177,9 @@ the screenshot provided above. Congratulations on a good looking app!
      
    * Carefully read the entire API documentation, including default values, for the following 
      `ImageView` properties:
-     [`fitHeight`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/ImageView.html#fitHeightProperty)
+     [`fitHeight`](https://openjfx.io/javadoc/11/javafx.graphics/javafx/scene/image/ImageView.html#fitHeightProperty)
      and
-     [`preserveRatio`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/ImageView.html#preserveRatioProperty).
+     [`preserveRatio`](https://openjfx.io/javadoc/11/javafx.graphics/javafx/scene/image/ImageView.html#preserveRatioProperty).
      Carefully considering how these properties impact an `ImageView` can lead to more concise
      and readable code.
    
@@ -172,35 +190,51 @@ If you completed the steps correctly, your app should not only look
 similar to the screenshot provided above, but it has the desired
 functionality. Congratulations on a good looking, functional app!
         
-![CP](https://img.shields.io/badge/Checkpoint-2-success?style=for-the-badge)
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Submission Steps
 
 **Each student needs to individually submit their own work.**
 
-1. Create a plain text file called `SUBMISSION.md` directly inside this exercise
-   directory with the following information:
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce20`
+   directory with the following information.
 
    1. Your name and UGA ID number;
    1. Collaborator names, if any; and
-   1. The weekly code (listed with the exercise on eLC).
+   1. If you created the API website, include the full link to the site you generated.
    
-   Here is an example:
+   Here is an example of the contents of `SUBMISSION.md`.
    
    ```
    1. Sally Smith (811-000-999)
    2. Collaborators: Joe Allen, Stacie Mack
-   3. Weekly Code: replace-with-actual-code
+   3. https://webwork.cs.uga.edu/~user/cs1302-ce20-doc
    ```
 
-1. Add and commit `SUBMISSION.md`. Also, do a final check to ensure your code 
-   passes the `checkstyle` audit, then stage and commit all changes, if needed.
+1. Change directories to the parent of `cs1302-ce20` (e.g., `cd ..` from `cs1302-ce20`). If you would like
+   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
+   We won't repeat those steps here and you can view them as optional.
+   
+1. Use the `submit` command to submit this exercise to `csci-1302`:
+   
+   ```
+   $ submit cs1302-ce20 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
 
-1. Change into the parent directory and use the `submit` command to submit this exercise to `cs1302a`:
-   
-   ```
-   $ submit cs1302-ce20 cs1302a
-   ```
-   
-![CP](https://img.shields.io/badge/Checkpoint-Submission-success?style=for-the-badge)
+   **Note:** You must be on Odin to submit.
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
 
 <hr/>
 
